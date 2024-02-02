@@ -23,7 +23,7 @@ let answer = await ask("Who is your favorite pokemon?")
       return (answer.toString())
     }
     else {
-        return "Sorry, try again!"
+      return "Sorry, try again!"
     }
 }
 
