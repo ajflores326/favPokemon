@@ -28,4 +28,5 @@ function checkPokemon(answer) {
 }
 
 console.log(checkPokemon(answer))
+
 process.exit();
