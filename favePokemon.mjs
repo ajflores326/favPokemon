@@ -18,7 +18,7 @@ const pokemonNames = allPokemon.results.map((element) => element.name);
 
 let answer = await ask("Who is your favorite pokemon?")
     
- function checkPokemon(answer) {  // function to check if the answer is included in the array
+function checkPokemon(answer) {  // function to check if the answer is included in the array
     if (pokemonNames.includes(answer)) { 
       return (answer.toString())
     }
